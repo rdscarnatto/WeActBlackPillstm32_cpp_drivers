@@ -9,7 +9,6 @@
 *PB13 --> SPI2_SCK
 *PB12 --> SPI2_NSS
 *ALT Funciton mode: 5
-
 */
 
 
