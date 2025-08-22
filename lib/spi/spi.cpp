@@ -39,6 +39,7 @@ void SPI_Init(SPI_Handle_t *pSPIHandle)
 }
 
 uint8_t SPI_GetFlagStatus(SPI_TypeDef *pSPIx, uint32_t FlagName){
+  
   if (pSPIx->SR & FlagName)
   {
     return SET;

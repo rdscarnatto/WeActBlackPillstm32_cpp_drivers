@@ -73,16 +73,6 @@ typedef struct
 #define SPI_SSM_DI 0
 
 
-
-// Generic macros
-#define ENABLE  1
-#define DISABLE 0
-#define SET ENABLE
-#define RESET DISABLE
-#define GPIO_PIN_SET  ENABLE
-#define GPIO_PIN_RESET DISABLE
-
-
 void SPI_Init(SPI_Handle_t *pSPIHandle);
 void SPI_SendData(SPI_TypeDef *pSPIx, uint8_t *pTxBuffer, uint32_t len);
 
